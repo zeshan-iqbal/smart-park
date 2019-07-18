@@ -4,24 +4,14 @@ import "@ionic/core/css/ionic.bundle.css";
 import {
   IonApp,
   IonContent,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardSubtitle
 } from "@ionic/react";
+import Login from './components/Login';
 
 class App extends Component {
   render() {
     return (
       <IonApp>
-        <IonContent>
-          <IonCard>
-            <IonCardHeader>
-              <IonCardSubtitle>Welcome to Ionic</IonCardSubtitle>
-              <IonCardTitle>Running on React</IonCardTitle>
-            </IonCardHeader>
-          </IonCard>
-        </IonContent>
+        <Login />
       </IonApp>
     );
   }
